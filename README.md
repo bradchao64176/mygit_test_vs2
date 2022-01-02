@@ -1,5 +1,7 @@
 # Y22 Python 100 days practice code 
 
+## Python3 online document
+    https://docs.python.org/3/tutorial/index.html
 ## Setup 
     this project requiredd Python3.8.8 version
 
