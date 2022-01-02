@@ -11,6 +11,8 @@
 bill = float(input("bill="))
 tip = float(input("tip="))/100
 person = int(input("How many persons?"))
-each_person_pay = round(( bill / person )  * (tip+1),2)
+each_person_pay = round(( bill / person )  * (tip+1),3)
 
 print(f"each person should pay:{each_person_pay}")
+each_person_pay2 = ( bill / person )  * (tip+1)
+print("each person should pay:{:.2f}".format(each_person_pay2))
