@@ -2,6 +2,9 @@ def format_name(f_name,l_name):
     #this is Docstring format with three double quote
     """
     Take a fist and last name and format it to return the title case version of the name
+    :param param1: this is a first param
+    :param param2: this is a second para
+    :returns: this is a description of what is returned
     """
     if f_name=="" or l_name=="":
         return "You don't provide valid inputs"
